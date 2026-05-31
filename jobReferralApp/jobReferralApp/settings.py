@@ -192,3 +192,14 @@ CLIENT_SECRET = "BiLFy1fOCNB1cKXgOMACXntMoNwPJLOOAUqtdhrlT4UgRsqd2UawejeGfPheWI8
 OAUTH2_PROVIDER = {
     'OAUTH2_BACKEND_CLASS': 'oauth2_provider.oauth2_backends.JSONOAuthLibCore'
 }
+
+SWAGGER_SETTINGS = {
+    "USE_SESSION_AUTH": False,
+    "SECURITY_DEFINITIONS": {
+        "Bearer": {
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header",
+        }
+    },
+}
