@@ -66,13 +66,6 @@ cloudinary.config(
     api_secret="Jfur6eOyJ9gMBbbdM9nwBGKoL4E"
 )
 
-# CLOUDINARY = {
-#     'cloud_name': 'dzrgeifj0',
-#     'api_key': '379262584825783',
-#     'api_secret': 'Jfur6eOyJ9gMBbbdM9nwBGKoL4E',
-#     'api_proxy': 'http://proxy.server:3128'
-# }
-
 MAILCHIMP_API_KEY = 'e4bc513bb8a430403af5f826dba47590-us17'
 MAILCHIMP_LIST_ID = '6c0097fbaa'
 
