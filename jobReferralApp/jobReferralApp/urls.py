@@ -32,7 +32,8 @@ schema_view = get_schema_view(
         license=openapi.License(name="Đoàn Thị Thảo@2024"),
     ),
     public=True,
-    permission_classes=(permissions.AllowAny,))
+    permission_classes=(permissions.AllowAny,),
+    authentication_classes=[],)
 
 urlpatterns = [
     path('admin/', admin_site.urls),
